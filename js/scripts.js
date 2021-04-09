@@ -1,16 +1,23 @@
 // Business logic
 
-function Pizza(topping, size) {
+function Pizza(topping, size, price) {
   this.pizzaTopping = topping;
   this.pizzaSize = size;
+  this.price = price;
 }
 
 Pizza.prototype.GetPrice = function() {
-  if ("#topping" && "#size" === pepporoni && small) {
-    return 10.00;
+  let sizeOfPizza = this.pizzaSize;
+  let oneTopping = this.pizzaTopping;
+  let priceOfPizza = 0;
+  this.price = 0;
+  if (sizeofPizza === "small" && oneTopping === "pepporoni") {
+    priceOfPizza = 25;
   }
-  console.log(this.GetPrice);
+  return this.price += priceOfPizza;
 }
+console.log(priceOfPizza);
+
 
 
 
@@ -23,5 +30,6 @@ $(document).ready(function() {
     event.preventDefault();
     const topping = $("#topping").val();
     const size = $("#size").val();
+    const priceOfPizza = 0;
   });
 });
