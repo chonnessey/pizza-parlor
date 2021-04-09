@@ -6,7 +6,7 @@ function Pizza(topping, size) {
 }
 
 Pizza.prototype.GetPrice = function(price) {
-
+  
 }
 
 
