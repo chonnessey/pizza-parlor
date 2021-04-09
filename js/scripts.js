@@ -5,8 +5,11 @@ function Pizza(topping, size) {
   this.pizzaSize = size;
 }
 
-Pizza.prototype.GetPrice = function(price) {
-  
+Pizza.prototype.GetPrice = function() {
+  if ("#topping" && "#size" === pepporoni && small) {
+    return 10.00;
+  }
+  console.log(this.GetPrice);
 }
 
 

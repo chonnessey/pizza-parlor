@@ -1,0 +1,11 @@
+.jumbotron {
+  background: linear-gradient(to right, beige, cyan);
+}
+
+body {
+  background: linear-gradient(to right, beige, orange);
+}
+
+button {
+  cursor: pointer;
+}
