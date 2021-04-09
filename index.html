@@ -16,6 +16,15 @@
   
       <form id="order">
         <div class="form-group">
+          <label for="size">Choose your size</label>
+          <select id="size" class="form-select" aria-label="Default Example" required>
+            <option value="">Choose One Please</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <div class="form-group">
           <label for="topping1">Choose your first topping</label>
           <select id="topping1" class="form-select" aria-label="Default Example" required>
             <option value="">Choose One Please</option>
@@ -51,15 +60,7 @@
             <option value="olives">Olives</option>
           </select>
         </div>
-        <div class="form-group">
-          <label for="size">Choose your size</label>
-          <select id="size" class="form-select" aria-label="Default Example" required>
-            <option value="">Choose One Please</option>
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-          </select>
-        </div>
+        
 
         <button type="submit" class="btn-success">What's my price?</button>
       </form>

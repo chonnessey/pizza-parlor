@@ -5,7 +5,7 @@
 
 ### Description:
 
-_This application will calculate the price of a pizza depedning on options selected from uses input_
+_This application will calculate the price of a pizza depedning on options selected from user input_
 
 
 ### Set Up Instructions:
@@ -24,7 +24,7 @@ _This application will calculate the price of a pizza depedning on options selec
 ### Tests
 Describe: Pizza();
 
-Test: 
+Test: Show properties of Pizza constructor
 Code: 
 Expected Output:
 

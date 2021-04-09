@@ -4,16 +4,14 @@ function Pizza(toppings, size,) {
   this.pizzaToppings = toppings;
   this.pizzaSize = size;
 }
+console.log(Object.keys(Pizza));
 
 Pizza.prototype.GetPrice = function() {
   let sizeOfPizza = this.pizzaSize;
   let chosenToppings = [];
   let priceOfPizza = 0;
-  this.pizzaToppings.forEach(function(topping) {
-    chosenToppings.push(topping)
-  });
-  console.log(Pizza.GetPrice.chosenToppings);
   // determine price of pizza depending on user input for toppings and size.
+  console.log(Object.keys(this.GetPrice));
 }
 
 
