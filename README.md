@@ -24,7 +24,7 @@ _This application will calculate the price of a pizza depedning on options selec
 ### Tests
 Describe: Pizza();
 
-Test: Show properties of Pizza constructor
+Test: Show size of pizza chosen by user.
 Code: 
 Expected Output:
 
