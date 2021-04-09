@@ -5,7 +5,7 @@
 
 ### Description:
 
-_This application will calculate the price of a pizza depedning on options selected from user input_
+_This application will calculate the price of a pizza depending on options selected from user input_
 
 
 ### Set Up Instructions:
@@ -16,8 +16,10 @@ _This application will calculate the price of a pizza depedning on options selec
 
 ### Bugs:
  
+ _This project is still in progress.. I have not gotten the functionality down yet._
 
 ### Specs
+
 
 
 
@@ -35,6 +37,8 @@ Expected Output:
 2. GitHub
 3. JS
 4. Jquery
+5. CSS
+6. Bootstrap
 
 ### Contact:
 
