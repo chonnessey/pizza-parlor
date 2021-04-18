@@ -1,26 +1,24 @@
 // Business logic
 
-function Pizza(toppings, size,) {
-  this.pizzaToppings = toppings;
+function Pizza(topping1, topping2, topping3, size) {
+  this.topping1 = topping1 
+  this.topping2 = topping2 
+  this.topping3 = topping3
   this.pizzaSize = size;
+  this.price = 0;
 }
+console.log("small, 3 toppings", this.price)
 
-Pizza.prototype.GetPrice = function(priceOfPizza) {
-  let sizeOfPizza = this.pizzaSize;
-  let chosenToppings = this.pizzaToppings;
-  let priceOfPizza = 0;
-  // determine the size of pizza chosen by user.
-  if(sizeOfPizza === size && chosenToppings === toppings) {
-    priceOfPizza = 10;
-    return priceOfPizza;
-  }
-  
-  // determine price of pizza depending on user input for toppings and size.
-}
+
+// Pizza.prototype.getPrice = function() {
+//   if (this.pizzaSize )
+// }
 
 
 
-let myPizza = new Pizza(0, GetPrice);
+
+
+
 
 
 
@@ -37,10 +35,5 @@ let myPizza = new Pizza(0, GetPrice);
 $(document).ready(function() {
   $("#order").submit(function(event) {
     event.preventDefault();
-    const chosenToppings = $("#topping1", "#topping2", "#topping3").val();
-    // const topping2 = $("#topping2").val();
-    // const topping3 = $("#topping3").val();
-    const sizeOfPizza = $("#size").val();
-    const priceOfPizza = 0;
   });
 });
