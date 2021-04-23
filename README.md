@@ -16,9 +16,12 @@ _This application will calculate the price of a pizza depending on options selec
 
 ### Bugs:
  
- _This project is still in progress.. I have not gotten the functionality down yet._
+ _No Known Bugs._
 
 ### Specs
+* This application will increment the price of a pizza depending on the options selected from the user.
+* Each size from small to large, will increment by $5.00 dollars.
+* Each topping is worth $2.00 dollars and will increment accordingly.
 
 
 
@@ -26,9 +29,17 @@ _This application will calculate the price of a pizza depending on options selec
 ### Tests
 Describe: Pizza();
 
-Test: Show size of pizza chosen by user.
-Code: 
-Expected Output:
+Test: If the user chooses a "small" pizza it will add $15.00 dollars to the price.
+Code: if (this.pizzaSize === "small") this.price += 15;
+Expected Output: 15
+
+Test: If the user chooses a "medium" pizza it will add $20.00 dollars to the price.
+Code: if (this.pizzaSize === "medium") this.price += 20;
+Expected Output: 20
+
+Test: If the user chooses a "large" pizza it will add $25.00 dollars to the price.
+Code: if (this.pizzaSize === "large") this.price += 25;
+Expected Output: 25
 
 
 ### Technologies Used:
