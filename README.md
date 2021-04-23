@@ -10,7 +10,7 @@ _This application will calculate the price of a pizza depending on options selec
 
 ### Set Up Instructions:
 
-1. Clone this [repository](https://github.com/chonnessey/pizza-parlor.git)to your desktop.
+1. Clone this [repository](https://github.com/chonnessey/pizza-parlor.git) to your desktop.
 2. Navigate to the top level of the directory.
 3. Open Index.html in your browser.
 
